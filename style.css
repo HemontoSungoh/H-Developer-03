@@ -4,8 +4,10 @@
 	padding:0;
 }
 body{
-	font-family:WendyLPStd-Medium, monospace !important;
+	font-family: WendyLPStd-Medium; !important;
 	transition: all 0.5s ease;
+	-webkit-transition:all 0.3s all ease;
+	background-color: #FFFFFF;
 }
 body, html{
 	height:100%;
@@ -15,9 +17,6 @@ img{
 }
 a{
 	text-decoration:none;
-}
-a:hover{
-	text-decoration:underline;
 }
 a{
 	text-decoration:none;
@@ -35,6 +34,10 @@ p{
 	width:100%;
 	height:auto;
 }
+.container{
+	width:1280px;
+	margin:0 auto;
+}
 
 .fix{
 	overflow:hidden;
@@ -50,3 +53,61 @@ p{
 	float:right;
 }
 /*---------------Typography End----------------------*/
+/*---------------Stay focused Part Start--------------------*/
+#stay_focused{
+	width:1280px;
+	overflow: hidden;
+	margin-top: 90px;
+}
+.focused_left_side{
+	width:620px;
+	margin-right: 40px;
+}
+.focused_right_side{
+	width:620px;
+}
+.focused_left_side p{
+	font-size: 25px;
+	color:#861D9D;
+	text-align: justify;
+}
+.Stay-Focused-on{
+	font-family: WendyLPStd-Medium;
+	font-size: 80px;
+	color:#F8AD41;
+	font-weight: bold;
+	margin-left:15px;
+}
+.Mission_2022_h1{
+	font-family: WendyLPStd-Medium;
+	font-size: 100px;
+	color:#D4202D;
+	font-weight: bold;
+	margin-left:15px;
+}
+.all-h1-focused{
+	border-left: 6px solid green;
+}
+.focused_left_side p{
+	color:#861D56;
+}
+.focused-link{
+	background-color: #1FB3B8;
+	padding: 15px 60px;
+	color:white;
+	border-radius: 5px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.focused-link:hover{
+	background: #149B2F;
+	transition: 0.3s all ease;
+	color:#149EF8;
+	cursor: pointer;
+	box-shadow: 5px 5px 10px #092E3B;
+	
+}
+.focused_right_side	img{
+	border-radius: 5px;
+}
+/*---------------Stay focused Part Start--------------------*/
