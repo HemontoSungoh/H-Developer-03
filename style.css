@@ -64,6 +64,9 @@ p{
 	width:620px;
 	margin-right: 40px;
 	margin-top:100px;
+	background-image: url(img/01.jpg);
+	background-repeat: no-repeat;
+
 }
 .focused_right_side{
 	width:620px;
@@ -89,10 +92,11 @@ p{
 	margin-left:15px;
 
 }
+/*
 .all-h1-focused{
 	border-left: 6px solid green;
 }
-
+*/
 .focused_left_side p{
 	color:#861D56;
 }
@@ -212,6 +216,7 @@ p{
 .global-comununity{
 	margin-top: 120px;
 	margin-bottom: 120px;
+
 }
 .global_cmnity_left_part{
 	width:620px;
@@ -231,7 +236,6 @@ p{
 }
 .global_cmnity_right_part{
 	width:620px;
-	
 }
 .global_cmnity_right_part img{
 	width:580px;
