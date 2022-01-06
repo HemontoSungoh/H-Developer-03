@@ -4,7 +4,7 @@
 	padding:0;
 }
 body{
-	font-family: WendyLPStd-Medium; !important;
+	
 	transition: all 0.5s ease;
 	-webkit-transition:all 0.3s all ease;
 	background-color: #FFFFFF;
@@ -114,9 +114,7 @@ p{
 }
 /*---------------Stay focused Part End--------------------*/
 /*---------------Mission-2022 Part Start--------------------*/
-.Mission_2022{
 
-}
 
 .Mission_2022 h1{
 	color:black;
