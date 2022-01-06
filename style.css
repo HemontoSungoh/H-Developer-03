@@ -117,19 +117,24 @@ p{
 .Mission_2022{
 
 }
+.2022_m{
+	color:red;
+}
 .Mission_2022 h1{
 	color:black;
 	font-size: 80px;
 	text-align: center;
 	font-weight: bold;
+	font-family: WendyLPStd-Medium;
 }
 .Mission_single_part h2{
 	color:#F8AD41;
 	font-weight: bold;
+	font-family: WendyLPStd-Medium;
 }
 .Mission_single_part p{
 	color:black;
-	
+	font-family: WendyLPStd-Medium;
 	text-align: justify;
 }
 .Mission_single_part{
@@ -158,5 +163,44 @@ p{
 }
 /*---------------Mission-2022 Part End--------------------*/
 /*---------------Devlop Limits Part Start--------------------*/
-
+.devlop-limits{
+	margin-top: 40px;
+	
+}
+.devlop_left_side{
+	width:620px;
+	margin-right: 20px;
+}
+.devlop_left_side img{
+	width:550px;
+}
+.devlop_right_side{
+	width:620px;
+	margin-top:50px;
+}
+.devlop_right_side h1{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: WendyLPStd-Medium;
+}
+.devlop_right_side p{
+	color:#A51D56;
+	font-size: 25px;
+	text-align: justify;
+}
+.devlop-link{
+	background-color: #1FB3B8;
+	padding: 15px 60px;
+	color:white;
+	border-radius: 5px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.devlop-link:hover{
+	background: #149B2F;
+	transition: 0.3s all ease;
+	color:white;
+	cursor: pointer;
+	box-shadow: 5px 5px 10px #092E3B;
+}
 /*---------------Devlop Limits Part End--------------------*/
