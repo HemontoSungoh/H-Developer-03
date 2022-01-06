@@ -87,10 +87,11 @@ p{
 	color:#D4202D;
 	font-weight: bold;
 	margin-left:15px;
+
 }
 .all-h1-focused{
-	/*border-left: 6px solid green;*/
-	background-image: url(img/01.jpg);
+	border-left: 6px solid green;
+	/*background-image: url(img/01.jpg);*/
 	background-repeat: no-repeat;
 }
 
