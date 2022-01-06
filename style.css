@@ -117,9 +117,7 @@ p{
 .Mission_2022{
 
 }
-.2022_m{
-	color:red;
-}
+
 .Mission_2022 h1{
 	color:black;
 	font-size: 80px;
@@ -190,7 +188,7 @@ p{
 }
 .devlop-link{
 	background-color: #1FB3B8;
-	padding: 15px 60px;
+	padding: 15px 55px;
 	color:white;
 	border-radius: 5px;
 	font-size: 30px;
@@ -204,3 +202,118 @@ p{
 	box-shadow: 5px 5px 10px #092E3B;
 }
 /*---------------Devlop Limits Part End--------------------*/
+/*---------------Global comununity Part Start--------------------*/
+.global-comununity{
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+.global_cmnity_left_part{
+	width:620px;
+	margin-right: 20px;
+	margin-top:60px;
+}
+.global_cmnity_left_part h1{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: WendyLPStd-Medium;
+	color:#333333;
+}
+
+.global_cmnity_left_part p{
+	color:#A51D7C;
+	font-size: 25px;
+}
+.global_cmnity_right_part{
+	width:620px;
+	
+}
+.global_cmnity_right_part img{
+	width:580px;
+	padding-right: 0px;
+	float: right;
+}
+.global-cmnity-link{
+	background-color: #1FB3B8;
+	padding: 15px 55px;
+	color:white;
+	border-radius: 5px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.global-cmnity-link:hover{
+	background: #149B2F;
+	transition: 0.3s all ease;
+	color:white;
+	cursor: pointer;
+	box-shadow: 5px 5px 10px #092E3B;
+}
+/*---------------Global comununity Part End--------------------*/
+/*---------------Build Corona Application Part Start--------------------*/
+.Build-Corona-Application{
+	margin-top: 100px;
+}
+.Bld_corona_app_h1{
+	text-align: center;
+	font-size: 80px;
+	margin-bottom: 50px;
+	font-family: WendyLPStd-Medium;
+	font-weight: bold;
+}
+[type=text], select, textarea {
+	width: 100%;
+	padding: 15px;
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box; 
+	margin-bottom: 16px; 
+	resize: vertical;
+  }
+  
+  
+  input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  input[type=Email] {
+	width: 96.6%;
+	background-color: white;
+	color: white;
+	padding: 15px 20px;
+	border:1px solid #CCCCCC;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+ 
+ input[type=submit]{
+	background-color: #1FB3B8;
+	padding: 10px 55px;
+	color:white;
+	border-radius: 5px;
+	font-size: 15px;
+	margin-bottom: 20px;
+  }
+  
+/*-------Build Corona Application End--------------*/
+/*------------------footer part Start-----------------*/
+.footer{
+	background-color: #0B0D17;
+}
+.footer h1{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+	padding: 30px;
+}
+.footer p{
+	color:#fff;
+	text-align:center;
+}
+.background_bg{
+	background-color: #0B0D17;
+}
+/*------------------footer part End-----------------*/
