@@ -57,12 +57,13 @@ p{
 #stay_focused{
 	width:1280px;
 	overflow: hidden;
-	margin-top: 90px;
+	margin-top: 60px;
 	margin-bottom: 60px;
 }
 .focused_left_side{
 	width:620px;
 	margin-right: 40px;
+	margin-top:100px;
 }
 .focused_right_side{
 	width:620px;
@@ -88,8 +89,11 @@ p{
 	margin-left:15px;
 }
 .all-h1-focused{
-	border-left: 6px solid green;
+	/*border-left: 6px solid green;*/
+	background-image: url(img/01.jpg);
+	background-repeat: no-repeat;
 }
+
 .focused_left_side p{
 	color:#861D56;
 }
@@ -110,7 +114,7 @@ p{
 	
 }
 .focused_right_side	img{
-	width:600px;
+	width:580px;
 }
 /*---------------Stay focused Part End--------------------*/
 /*---------------Mission-2022 Part Start--------------------*/
@@ -122,6 +126,9 @@ p{
 	text-align: center;
 	font-weight: bold;
 	font-family: WendyLPStd-Medium;
+}
+.mission-span{
+	color:#D4202D;
 }
 .Mission_single_part h2{
 	color:#F8AD41;
@@ -166,6 +173,7 @@ p{
 .devlop_left_side{
 	width:620px;
 	margin-right: 20px;
+	background-image: url(img/shape-1.png);
 }
 .devlop_left_side img{
 	width:550px;
@@ -252,11 +260,15 @@ p{
 }
 .Bld_corona_app_h1{
 	text-align: center;
-	font-size: 80px;
+	font-size: 60px;
 	margin-bottom: 50px;
 	font-family: WendyLPStd-Medium;
 	font-weight: bold;
 }
+.corona-span-app{
+	color:#D4202D;
+}
+
 [type=text], select, textarea {
 	width: 100%;
 	padding: 15px;
@@ -306,10 +318,16 @@ p{
 	text-align: center;
 	margin-top: 20px;
 	padding: 30px;
+	font-family: WendyLPStd-Medium;
 }
-.footer p{
-	color:#fff;
-	text-align:center;
+.footer-span-22{
+	color:#D4202D;
+}
+.footer p {
+    color: #BBBDC3;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -34px;
 }
 .background_bg{
 	background-color: #0B0D17;
