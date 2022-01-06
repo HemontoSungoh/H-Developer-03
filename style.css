@@ -58,6 +58,7 @@ p{
 	width:1280px;
 	overflow: hidden;
 	margin-top: 90px;
+	margin-bottom: 60px;
 }
 .focused_left_side{
 	width:620px;
@@ -65,6 +66,7 @@ p{
 }
 .focused_right_side{
 	width:620px;
+	
 }
 .focused_left_side p{
 	font-size: 25px;
@@ -102,12 +104,40 @@ p{
 .focused-link:hover{
 	background: #149B2F;
 	transition: 0.3s all ease;
-	color:#149EF8;
+	color:white;
 	cursor: pointer;
 	box-shadow: 5px 5px 10px #092E3B;
 	
 }
 .focused_right_side	img{
-	border-radius: 5px;
+	width:600px;
 }
 /*---------------Stay focused Part End--------------------*/
+/*---------------Mission-2022 Part Start--------------------*/
+.Mission_2022{
+
+}
+.Mission_2022 h1{
+	color:black;
+	font-size: 40px;
+	text-align: center;
+}
+.2022_m{
+	color:#D4202D;
+	
+}
+.Mission_single_part{
+	width:400px;
+	height: 350px;
+	margin-right: 20px;
+	background-color: #FFF4D6;
+	padding: 15px;
+	margin-top: 50px;
+	margin-bottom: 90px;
+	border-radius: 15px;
+}
+.Mission_single_part img{
+	width:200px;
+	
+}
+/*---------------Mission-2022 Part End--------------------*/
